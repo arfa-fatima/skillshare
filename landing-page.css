@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+:root{
+    --clr-dark:black;
+    --clr-light:#fff;
+    --clr-darkblue:blue;
+    --clr-grey:#E0E0E0;
+    --clr-yellow:#FFFF00;
+}
+body{
+    background-image: url(360_F_287113142_8XLkz9kGNKWdvazBEgl8GoymDG5YBsa9\ \(1\).jpg);
+    background-size: cover;
+}
+h2{
+       padding: 0px 10px;
+       
+}
+.logo{
+    font-size: 3rem;
+}
+.fix{
+    font-size: 2.7rem;
+    color: var(--clr-light);
+}
+.navbar{
+    display: flex;
+    width: 100%;
+}
+.navbar_item{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar_item ul li{
+list-style-type: none;
+display: inline-block;
+padding: 20px 20px;
+}
+.navbar_item ul li a{
+    text-decoration: none;
+    color: var(--clr-light);
+    font-weight:500;
+    font-size: 1.3rem;
+}
+a{
+    position: relative;
+    width: max-content;
+}
+a::after{
+    content: '';
+    background: var(--clr-dark) ;
+    border-radius: 100px;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s;
+}
+a:hover::after{
+    width: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 100%;
+}
+.left_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+   padding: 0px 10px;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 4rem;
+    color: var(--clr-grey);
+}
+.sub_heading{
+        font-size: 1.7rem;
+    color: var(--clr-dark);
+}
+.tertiary-heading{
+    margin-top: 20px;
+    color: var(--clr-grey);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.right_container{
+    display: flex;
+    height: 90vh;
+    width: 50%;
+}
+img{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 20%;
+    border-radius: 30px;
+}
+.bottom-icons{
+    display: flex;
+    flex-direction: row;
+    font-size: 200%;
+    gap: 20%;
+    
+    margin-top: 50px;
+    color: var(--clr-light);
+}
+button{
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    border-radius: 25px;
+    padding: 2px;
+    width: 20%;
+    font-size: 20px;
+    margin-left: 70%;
+    justify-content: center;
+}
+button:hover{
+    color: var(--clr-grey);
+}
