@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+:root{
+    --clr-black:black;
+    --clr-white:white;
+    --clr-grey:grey;
+}
+.border{
+    display: flex;
+    flex-direction:row;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 10px;
+}
+.left-container{
+    display: flex;
+    overflow: hidden;
+    height: 98%;
+    width: 48%;
+    background-image: url(login\ page\ pic.webp);
+    position: relative;
+    background-size: cover;
+    margin: auto;
+    border-radius: 20px;
+    background-position: center;
+}
+.home-page-heading{
+    width: 20%;
+    height: 25px;
+    border-radius: 40px;
+    margin: 10px 20px;
+    padding: 5px;
+    background-color: var(--clr-white);
+}
+.home-page{
+    margin-left: 5px;
+}
+.fa-arrow-left-long{
+    margin-left: 10px;
+}
+.right-container{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}
+.heading{
+    margin-top: 30px;
+    margin-left:70px ;
+}
+.sub-heading{
+    margin-left:70px ;
+}
+.first-name,.last-name{
+    padding: 15px;
+    border-radius: 40px;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    margin-left:70px ;
+    width: 30%;
+    margin-top: 30px;
+}
+.first-two-inputs{
+    display: flex;
+    flex-direction: row;
+    
+}
+.last-name{
+    margin-left: 20px;
+}
+.last-two-inputs input{
+    padding: 15px;
+    width: 67%;
+    border-radius: 40px;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+     margin-left:70px ;
+}
+.checkbox-text{
+    display: flex;
+    flex-direction: row;
+    margin-left:70px ;
+    margin-top: 10px;
+}
+.text{
+    text-align: left;
+    justify-content:left;
+    margin-left: 10px;
+}
+.signup-button{
+    padding: 15px;
+    width: 75%;
+    border-radius: 40px;
+    border: 1px black solid;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+    font-size: 1rem;
+     margin-left:70px ;
+
+}
+.account{
+    margin-top: 20px;
+     margin-left:70px ;
+
+}
+.login-text{
+    border-bottom:0cqi;
+    border-color: grey;
+    border-style:groove;
+}
+.line-text{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 40px;
+}
+.line-text::after,.line-text::before{
+    content: '';
+    flex-grow: 1;
+    height: 1px;
+    background-color: var(--clr-grey);
+    margin: 15px 10px ;
+}
+.google-signup{
+    padding: 15px;
+    width: 75%;
+    border-radius: 40px;
+    border: 1px black solid;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+    font-size: 1rem;
+    margin-left:70px ;
+}
+.fa-google{
+    margin-top: 5px;
+    margin-right: 5px;
+    color: var(--clr-white);
+}
