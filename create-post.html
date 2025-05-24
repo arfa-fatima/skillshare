@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="create-post.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="heading-border">
+    <h1 class="heading">Create new post</h1>
+    </div>
+    <div class="border">
+    <div class="title">
+        <span class="title-heading" style="font-size: 2rem;">Title</span>
+        <input type="text" placeholder="" class="title-placeholder" >
+    </div>
+    <div class="post">
+        <span class="post-text" style="font-size: 2rem;margin-top: 30px;">Post text</span>
+        <input type="text" placeholder="" class="post-text-placeholder">
+    </div>
+    <select name="Category" id="category">
+      <span>Category</span> <option value="">0</option>
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+        <option value="">4</option>
+        <option value="">5</option>
+    </select>
+    <div class="description-area">
+        <span class="description-heading" style="font-size: 2rem;margin-top: 30px;">Description</span>
+        <input type="text" placeholder="" class="description-placeholder">
+    </div>
+        <div class="location-area">
+        <span class="location-heading" style="font-size: 2rem;margin-top: 30px;">Location</span>
+        <input type="text" placeholder="" class="location-placeholder">
+    </div>
+    <div class="image-option">
+        <span class="image" style="margin-top: 20px;display: flex;">Attach image</span>
+        <input type="file" id="file">
+        <label for="file"><i class="fa-solid fa-plus"></i></label>
+    </div>
+    </div>
+</body>
+</html>

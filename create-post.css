@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+:root{
+    --clr-black:black;
+    --clr-white:white;
+    --clr-grey:grey;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin: 20px 0;
+}
+.heading-border{
+    border: 1px grey solid;
+    border-color: var(--clr-grey); 
+}
+.border{
+    margin: auto;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.title,.post,.description-area,.location-area{
+    display: flex;
+    flex-direction: column;
+}
+.title-placeholder,.post-text-placeholder,.description-placeholder,.location-placeholder{
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px black solid;
+}
+#category{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+#file{
+    display: none;
+}
+label{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    height: 200px;
+    width: 20%;
+    border-radius: 6px;
+    padding: 10px 0;
+    margin: 20px 0px 20px;
+    border: 1px dashed #999;
+}
+label:hover{
+    color: var(--clr-grey);
+    border: 1px dashed grey;
+}
