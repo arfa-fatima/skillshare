@@ -9,6 +9,63 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="login.css">
 </head>
+<style>
+    @media screen and (max-width:930px){
+        h3{
+            text-align: center;
+        }
+
+    }
+    @media screen and (max-width:815px){
+        .login-heading{
+                font-size: 2.5rem;
+
+        }
+        .username{
+            display: flex;
+            margin-top: 10px;
+            margin-bottom: 20px;
+ 
+        }
+    }
+        @media screen and (max-width:680px){
+            img{
+                height: 90%;
+                margin-top: 10%;
+            }
+            .icons{
+                    margin-top: 20px;
+
+            }
+            input,.login-button{
+                padding: 10px;
+            }
+        }
+        @media screen and (max-width:580px){
+            .login-heading{
+                font-size: 2rem;
+            }
+            .border{
+                flex-direction: column-reverse;
+            }
+            .right-container{
+                display: flex;
+                margin: 0;
+                width: 100%;
+                height: 100%;
+            }
+            img{
+                height: 100%;
+                width: 100%;
+
+            }
+            .left-container{
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+</style>
 <body>
 
     <div class="border">
@@ -19,7 +76,7 @@
         <h3> If a community event or initiative is really great.</h3>
         <h4> "The food drive was bussin'!"</h4>
         <input type="text" placeholder="Username" class="username">
-         <div><input type="text" placeholder="Password" ><i class="fa-solid fa-eye-slash"></i></div>
+        <input type="text" placeholder="Password" ><i class="fa-solid fa-eye-slash"></i>
          <span class="password">Forget Password?</span>
          <button class="login-button">Login</button>
          <div class="line-text">
@@ -29,7 +86,9 @@
         <div class="registration">Not a Member? <span style="color: rgb(59, 155, 59);">  Register Now</span></div>
         </div>
         
-        <div class="right-container"></div>
+        <div class="right-container">
+                <img src="login page pic.webp" alt="">
+        </div>
 
     </div>
 </body>

@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: "poppins";
+    
 }
 :root{
     --clr-black:black;
@@ -14,33 +15,39 @@
     display: flex;
     flex-direction:row;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     border-radius: 10px;
 }
 .left-container{
     display: flex;
     overflow: hidden;
-    height: 98%;
-    width: 48%;
-    background-image: url(login\ page\ pic.webp);
-    position: relative;
-    background-size: cover;
-    margin: auto;
+    height: 100vh;
+    width: 50%;
     border-radius: 20px;
     background-position: center;
 }
+img{
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
 .home-page-heading{
-    width: 20%;
+    width: 25%;
     height: 25px;
     border-radius: 40px;
     margin: 10px 20px;
     padding: 5px;
+    display: flex;
+    flex-direction: row;
     background-color: var(--clr-white);
 }
 .home-page{
     margin-left: 5px;
 }
 .fa-arrow-left-long{
+    margin-top: 5px;
     margin-left: 10px;
 }
 .right-container{
@@ -52,6 +59,8 @@
 .heading{
     margin-top: 30px;
     margin-left:70px ;
+    display: flex;
+    text-align: center;
 }
 .sub-heading{
     margin-left:70px ;
@@ -69,7 +78,6 @@
 .first-two-inputs{
     display: flex;
     flex-direction: row;
-    
 }
 .last-name{
     margin-left: 20px;
@@ -103,11 +111,11 @@
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    align-self: center;
     padding-left: 0px;
     background-color: var(--clr-black);
     color: var(--clr-white);
     font-size: 1rem;
-     margin-left:70px ;
 
 }
 .account{
@@ -145,7 +153,7 @@
     background-color: var(--clr-black);
     color: var(--clr-white);
     font-size: 1rem;
-    margin-left:70px ;
+    align-self: center;
 }
 .fa-google{
     margin-top: 5px;

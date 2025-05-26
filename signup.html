@@ -7,12 +7,103 @@
     <link rel="stylesheet" href="signup.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<style>
+    @media screen and (max-width:1025px){
+
+        .first-name,.last-name,.last-two-inputs input{
+            margin-left: 30px;
+        }
+        .last-two-inputs input{
+            width:80% ;
+        }
+        .last-name{
+            width: 35%;
+        }
+    }
+     @media screen and (max-width:940px){
+        .heading,.sub-heading{
+            margin-left:40px ;
+}
+        .signup-button{
+            padding: 10px;
+        }
+        .google-signup{
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .checkbox-text{
+            margin-left: 30px;
+        }
+     }
+    @media screen and (max-width:770px){
+        .line-text{
+            margin-top: 20px;
+        }
+        .first-name,.last-name,.last-two-inputs input{
+            padding: 10px;
+            padding-left: 10px;
+        }
+        .signup-button{
+            padding: 8px;
+        }
+        .google-signup{
+            padding: 8px;
+            margin-top: 20px;
+        }
+    }
+      @media screen and (max-width:656px){
+        .border{
+            flex-direction: column;
+        }
+        .left-container{
+            width: 100%;
+        }
+        .right-container{
+            width: 100%;
+        }
+        .heading{
+            display: flex;
+            justify-content: center;
+        }
+        .sub-heading{
+            display: flex;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+        .last-name{
+            width: 40%;
+        }
+      }
+        @media screen and (max-width:445px){
+            .last-name{
+                margin-left: 10px;
+            }
+            .signup-button{
+            padding: 8px;
+            width: 50%;
+
+        }
+           .google-signup{
+            padding: 8px;
+            margin-top: 20px;
+            width: 50%;
+        }
+        .line-text{
+            font-size: 1rem;
+        }
+        }
+
+</style>
 <body>
     <div class="border">
         <div class="left-container">
+
+            <div><img src="login page pic.webp" alt="">
             <div class="home-page-heading">
             <i class="fa-solid fa-arrow-left-long"></i><span class="home-page">Back to home</span>
-            </div>
+            </div></div>
+
+            
         </div>
         
         <div class="right-container">
