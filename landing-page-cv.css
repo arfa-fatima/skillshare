@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
     font-family: "Ubuntu";
-    
+    transition: 0.5s all ease;
+
 }
 :root{
     --clr-black:black;
@@ -17,9 +18,9 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     width: 90%;
-    border-radius: 50px;
     margin: auto;
-        border: 1px green solid;
+    border-radius: 50px;
+    border: 1px green solid;
 
 
 }
@@ -29,7 +30,7 @@ nav{
 h1{
     margin: 15px 15px;
     font-size: 2rem;
-
+    text-align: center;
 }
 .hub{
     color: var(--clr-green);
@@ -86,14 +87,20 @@ h1{
 .left-container{
     width: 50%;
     height: 90vh;
+
 }
 .left-container-info{
     display: flex;
     height: 90vh;
-    margin: auto;
     flex-direction: column;
     justify-content: center;
 
+}
+.left-container-info p{
+    display: flex;
+    text-align: justify;
+    text-align: center;
+    margin-left: 10%;
 }
 .heading{
     display: flex;
@@ -123,17 +130,17 @@ h1{
 }
 .right-container {
     display: flex; 
-    gap: 20px; 
+    gap: 10px; 
     justify-content: center; 
     padding: 50px;
     width: 50%;
     margin: auto;
+
 }
 
 .testimonial-card {
     position: relative; 
     width: 50%;
-    height: 70%;
     background-color: #f8f8f8; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -179,3 +186,19 @@ h1{
     justify-content: center;
     animation: slidein 2s linear 1s 1 normal none;
 }
+#menu-toggle {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+
+  .hamburger div {
+    width: 22px;
+    height: 2px;
+    border-radius: 5px;
+    background: #333;
+    margin: 3px 0;
+  }
